@@ -33,8 +33,8 @@ class Products {
       });
 
       // local storage data
-      let result = await fetch("products.json"); //fetch always returns a promise  wrapped in response object
-      let data = await result.json(); // await makes the whole code below it untill its execution completes
+      //let result = await fetch("products.json"); //fetch always returns a promise  wrapped in response object
+      //let data = await result.json(); // await makes the whole code below it untill its execution completes
       // let products = data.items;
 
       let products = contentful.items;
